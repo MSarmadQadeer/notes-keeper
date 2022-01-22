@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: rgb(252, 252, 252);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+main {
+  padding: 1rem;
+  width: 100%;
+  max-width: 550px;
+}
+
+h1 {
+  font-family: "Handlee", cursive;
+  text-transform: uppercase;
+  padding: 1rem 0rem;
+  margin: 0.5rem 0rem;
+  color: rgb(28, 117, 188);
+  font-size: 1.7rem;
+  letter-spacing: 1px;
+  font-weight: 900;
+}
+
+article {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+button,
+input {
+  padding: 0.5rem 0.8rem;
+  margin-bottom: 0.5rem;
+  border: 1.5px solid rgb(250, 167, 28);
+  border-radius: 3px;
+  font-size: 1rem;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  color: rgb(28, 117, 188);
+  background: rgb(255, 233, 152);
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-family: "Handlee", cursive;
+  text-transform: uppercase;
+}
+
+button:hover {
+  color: rgb(28, 117, 188);
+  background: rgb(247, 197, 20);
+}
+
+input {
+  flex: 1;
+  font-weight: 500;
+  outline-color: rgb(28, 117, 188);
+  text-transform: capitalize;
+}
+
+li {
+  position: relative;
+  width: inherit;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0.2),
+    1px 1px 3px 0 rgba(0, 0, 0, 0.19);
+  margin: 1rem 0rem;
+  padding: 2rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 3px;
+}
+
+li p {
+  width: 100%;
+  overflow: auto;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: rgb(0, 0, 0);
+  letter-spacing: 0.5px;
+}
+
+.close-card-btn {
+  font-family: "Handlee", cursive;
+  transform: scale(2.3);
+  color: rgb(255, 59, 59);
+  position: absolute;
+}
+
+span {
+  cursor: pointer;
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  top: 3px;
+  right: 3px;
+}
